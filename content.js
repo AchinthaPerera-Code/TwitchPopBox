@@ -69,7 +69,7 @@ window.addEventListener("message", async (event) => {
         <button id="toggle-chat-btn" style="display:none;">Show Chat</button>
         <div id="video-container">
           <iframe
-            src="https://player.twitch.tv/?channel=${encodeURIComponent(channel)}&parent=${encodeURIComponent(parent)}"
+            src="https://player.twitch.tv/?channel=${encodeURIComponent(channel)}&enableExtensions=true&muted=true&parent=${encodeURIComponent(parent)}&player=popout&quality=auto&volume=0"
             allowfullscreen
             allow="autoplay; fullscreen; picture-in-picture"
           ></iframe>
