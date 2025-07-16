@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Twitch DocPiP Popout",
+    "version": "1.0",
+    "description": "Open Twitch stream + chat in a documentPictureInPicture window.",
+    "permissions": ["scripting", "tabs", "notifications"],
+    "host_permissions": ["https://www.twitch.tv/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Popout Twitch in PiP"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.twitch.tv/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
