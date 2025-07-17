@@ -2,18 +2,11 @@
     "manifest_version": 3,
     "name": "TTV PopBox",
     "version": "1.0",
-    "description": "Open Twitch stream + chat in a documentPictureInPicture window.",
+    "description": "Open Twitch stream + chat together in one PiP window.",
     "icons": {
-<<<<<<< HEAD
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
-=======
-      "16": "icon128.png",
-      "32": "icon128.png",
-      "48": "icon128.png",
-      "128": "icon128.png"
->>>>>>> fdd85317c74f6db50c21c459af600658639162e6
     },
     "permissions": ["scripting", "tabs", "notifications"],
     "host_permissions": ["https://www.twitch.tv/*"],
