@@ -19,7 +19,7 @@ A Chrome extension that allows you to open a Twitch stream and its chat in a flo
 1. **Clone or download** this repository to your computer.
 2. Open Chrome and go to `chrome://extensions`.
 3. Enable **Developer mode** (top right).
-4. Click **Load unpacked** and select the extension folder (`twitchextension copy`).
+4. Click **Load unpacked** and select the extension folder (`TwitchPopBox`).
 5. The extension icon will appear in your Chrome toolbar.
 
 ---
